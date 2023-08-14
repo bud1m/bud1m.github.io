@@ -1,0 +1,20 @@
+// custom.scss
+
+// Import Bootstrap's SCSS files
+
+// Customize the .card class
+// .card {
+//   background-color: #be7a7a; // Custom background color
+//   border: 5px solid #ca0000;    // Custom border
+//   box-shadow: 1 4px 6px rgba(0, 0, 0, 0.1); // Custom box shadow
+
+//   // You can add more custom styles as needed
+// }
+
+a {
+  text-decoration:none;
+  color: black;
+  &:hover {
+    text-decoration: none;
+  }
+}

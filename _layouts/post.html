@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  {% include head.html %}
+  <body>
+    
+    <div class="col-lg-8 mx-auto p-4 py-md-5">
+      
+      {% include header.html %}
+
+      <article>
+        <header>
+          <h1>{{ page.title }}</h1>
+          <p class="post-meta">
+            <span class="post-date">{{ page.date | date: "%d.%m.%Y" }}</span>
+            {% for tag in page.tags %}
+              <span class="badge text-bg-info opacity-50">{{ tag }}</span>
+            {% endfor %}
+          </p>
+        </header>
+
+        <div class="post-content">
+          {{ content }}
+        </div>
+      </article>
+
+      {% include footer.html %}
+
+    </div>
+      
+  </body>
+</html>
