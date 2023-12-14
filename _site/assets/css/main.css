@@ -1,3 +1,9 @@
+.card {
+  background-color: #be7a7a;
+  border: 5px solid #ca0000;
+  box-shadow: 1 4px 6px rgba(0, 0, 0, 0.1);
+}
+
 a {
   text-decoration: none;
   color: black;

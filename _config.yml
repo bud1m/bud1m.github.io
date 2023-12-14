@@ -1,47 +1,12 @@
-# This is a bs5-starter template for Jekyll.
-
-# If you need any help feel free to reach out on discord or email
-# me and I will help in any way you need. If you want a custom theme
-# or plugin built you can hop on discord and we can discuss it.
-#
-# =============
-# SOCIAL LINKS
-# =============
-#
-# This section handles your social network links displayed across
-# your site in liquid tags as site.social.NAME feel free to reach
-# out to me using these if you need any help.
-
 social:
   github: bud1m
   email: budimir.filipovic1@gmail.com
   discord: bud1m
 
-# ==========
-# SITE TITLE
-# ==========
-#
-# This is the title of your website for example, "The Moo York Times" :)
-
 title: bud1m
 
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome to your new site, replace this description
-
-# =======
-# BASEURL
-# =======
-#
-# This is the subpath of your site, e.g. /blog if you want users to
-# access your site at https://example.com/blog
-#
-# If you are using a gh-pages site this will be empty if your site
-# is on https://username.github.io if your repo using this theme is
-# named "foobar" then change this to /foobar and when you serve
-# it using the pages setting it will be live at
-#
-# https://username.github.io/foobar
-
 
 # ===
 # URL
@@ -54,7 +19,6 @@ description: >- # this means to ignore newlines until "baseurl:"
 # Use localhost for local development
 # http://localhost:4000
 
-url: "http://localhost:4000"
 
 # =================
 # EXCERPT_SEPARATOR
