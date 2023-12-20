@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en">
-  <head>
+<head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="Welcome to your new site, replace this description" />
@@ -23,14 +23,12 @@
   
 </head>
 
-  <body>
-    
-    <div class="col-lg-8 mx-auto p-1 py-md-0">
-      
-      <header>
-  <nav class="navbar navbar-expand-md bg-body-tertiary">
+
+<body class="d-flex flex-column min-vh-100 col-lg-8 mx-auto">
+  <header>
+  <nav class="navbar navbar-expand-md">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">bud1m</a>
+      <a class="navbar-brand header-name" href="/">bud1m</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -42,10 +40,10 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
+      <div class="collapse navbar-collapse " id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="/">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/blog">Blog</a>
@@ -59,35 +57,29 @@
   </nav>
 </header>
 
-
-      <main>
-        <div class="vstack gap-3">
+  <main>
+    <div class="p-3">
+      <div class="vstack gap-3">
   
-  <div class="card">
+  <div class="card bg-transparent border-0">
     <div class="card-body">
       <a href="/2023/08/14/example-post.html" class="card-link">
         <h2 class="card-title">Example Post</h2>
       </a>
-      <small class="card-subtitle opacity-25"
+      <small class="card-subtitle opacity-50"
         >14.08.2023</small
       >
-      
-      <span class="badge text-bg-info opacity-25">Kernel</span>
-      
-      <span class="badge text-bg-info opacity-25">Hacking</span>
-      
-      <span class="badge text-bg-info opacity-25">Ludi daka</span>
       
       <p class="card-text"><p>Ovde cemo staviti neki tekst za primer posta. Bili ja Dule M. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum leo ac quam dignissim dictum. Nulla facilisi. Maecenas vol...</p>
     </div>
   </div>
   
-  <div class="card">
+  <div class="card bg-transparent border-0">
     <div class="card-body">
       <a href="/2016/05/20/my-example-post.html" class="card-link">
         <h2 class="card-title">My Example Post</h2>
       </a>
-      <small class="card-subtitle opacity-25"
+      <small class="card-subtitle opacity-50"
         >20.05.2016</small
       >
       
@@ -95,12 +87,12 @@
     </div>
   </div>
   
-  <div class="card">
+  <div class="card bg-transparent border-0">
     <div class="card-body">
       <a href="/misc/2016/05/19/super-short-article.html" class="card-link">
         <h2 class="card-title">Some articles are just so short that we have to make the footer stick</h2>
       </a>
-      <small class="card-subtitle opacity-25"
+      <small class="card-subtitle opacity-50"
         >19.05.2016</small
       >
       
@@ -111,53 +103,10 @@ nostrud exercitation ullamco laboris n...</p>
   
 </div>
 
-<!-- <div class="vstack gap-3">
-  
-  <div class="card">
-    <div class="card-body">
-      <a href="/2023/08/14/example-post.html" class="card-link">
-        <h2 class="card-title">Example Post</h2>
-      </a>
-      <small class="card-subtitle opacity-25"
-        >14.08.2023</small
-      >
-       <span class="badge bg-info">Kernel</span>  <span class="badge bg-info">Hacking</span>  <span class="badge bg-info">Ludi daka</span> 
-      <p class="card-text"><p>Ovde cemo staviti neki tekst za primer posta. Bili ja Dule M. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum leo ac quam dignissim dictum. Nulla facilisi. Maecenas vol...</p>
     </div>
-  </div>
-  
-  <div class="card">
-    <div class="card-body">
-      <a href="/2016/05/20/my-example-post.html" class="card-link">
-        <h2 class="card-title">My Example Post</h2>
-      </a>
-      <small class="card-subtitle opacity-25"
-        >20.05.2016</small
-      >
-      
-      <p class="card-text"><p>Eos eu docendi tractatos sapientem, brute option menandri in vix, quando vivendo accommodare te ius. Nec melius fastidii constituam id, viderer theophrastus ad sit, hinc semper periculis cum id....</p>
-    </div>
-  </div>
-  
-  <div class="card">
-    <div class="card-body">
-      <a href="/misc/2016/05/19/super-short-article.html" class="card-link">
-        <h2 class="card-title">Some articles are just so short that we have to make the footer stick</h2>
-      </a>
-      <small class="card-subtitle opacity-25"
-        >19.05.2016</small
-      >
-      
-      <p class="card-text"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
-nostrud exercitation ullamco laboris n...</p>
-    </div>
-  </div>
-  
-</div> -->
-      </main>
-
-      <div class="flex-container">
-<footer class="py-4 my-4 text-center fixed-bottom">
+  </main>
+  <div class="flex-container">
+<footer class="text-center mt-auto static-bottom">
   <div class="container pt-4">
       <!-- Linkedin -->
       <a
@@ -165,7 +114,7 @@ nostrud exercitation ullamco laboris n...</p>
         href="https://www.linkedin.com/in/budimir-filipovic"
         role="button"
         data-mdb-ripple-color="dark"
-        ><i class="fab fa-2x fa-linkedin"></i
+        ><i class="fab fa-linkedin "></i
       ></a>
       <!-- Github -->
       <a
@@ -173,7 +122,7 @@ nostrud exercitation ullamco laboris n...</p>
         href="https://github.com/bud1m"
         role="button"
         data-mdb-ripple-color="dark"
-        ><i class="fab fa-2x fa-github"></i
+        ><i class="fab fa-github"></i
       ></a>
       <!-- Email -->
       <a
@@ -181,13 +130,12 @@ nostrud exercitation ullamco laboris n...</p>
         href="mailto:budimir.filipovic1@gmail.com"
         role="button"
         data-mdb-ripple-color="dark"
-        ><i class="fas fa-2x fa-envelope"></i
+        ><i class="fas fa-envelope"></i
       ></a>   
     </section>
 </footer>
 </div>
 
-    </div>
-      
-  </body>
+</body>
+
 </html>

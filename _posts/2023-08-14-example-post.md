@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Example Post"
-tags: [Kernel, Hacking, Ludi daka]
+# tags: [Kernel, Hacking, Ludi daka]
 ---
 
 Ovde cemo staviti neki tekst za primer posta. Bili ja Dule M. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum leo ac quam dignissim dictum. Nulla facilisi. Maecenas volutpat felis ut nulla fermentum, a faucibus nisi auctor. Sed non bibendum odio. Fusce at turpis eget justo dictum condimentum.
