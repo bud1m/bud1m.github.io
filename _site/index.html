@@ -24,7 +24,7 @@
 </head>
 
 
-<body class="d-flex flex-column min-vh-100 col-lg-8 mx-auto">
+<body class="position-relative d-flex flex-column min-vh-100 col-lg-8 mx-auto">
   <header>
   <nav class="navbar navbar-expand-md">
     <div class="container-fluid">
@@ -43,13 +43,10 @@
       <div class="collapse navbar-collapse " id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/">Home</a>
+            <a class="nav-link" href="/blog">/home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/blog">Blog</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/about">About</a>
+            <a class="nav-link" href="/about">/about-me</a>
           </li>
         </ul>
       </div>
@@ -58,8 +55,7 @@
 </header>
 
   <main>
-    
-    <div class="p-3">
+    <div class="p-3 pb-5 text-center">
       <div class="vstack gap-3">
   
   <div class="card bg-transparent border-0">
@@ -103,36 +99,29 @@
     </div>
   </main>
   <div class="flex-container">
-<footer class="text-center mt-auto static-bottom">
-  <div class="container pt-4">
+  <footer class="text-center position-absolute bottom-0 w-100">
+    <div class="container pt-4">
       <!-- Linkedin -->
-      <a
-        class="btn btn-link btn-floating btn-lg text-dark m-1"
-        href="https://www.linkedin.com/in/budimir-filipovic"
-        role="button"
-        data-mdb-ripple-color="dark"
-        ><i class="fab fa-linkedin "></i
-      ></a>
+      <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.linkedin.com/in/budimir-filipovic"
+        role="button" data-mdb-ripple-color="dark"><i class="fab fa-linkedin "></i></a>
       <!-- Github -->
-      <a
-        class="btn btn-link btn-floating btn-lg text-dark m-1"
-        href="https://github.com/bud1m"
-        role="button"
-        data-mdb-ripple-color="dark"
-        ><i class="fab fa-github"></i
-      ></a>
+      <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://github.com/bud1m" role="button"
+        data-mdb-ripple-color="dark"><i class="fab fa-github"></i></a>
       <!-- Email -->
-      <a
-        class="btn btn-link btn-floating btn-lg text-dark m-1"
-        href="mailto:budimir.filipovic1@gmail.com"
-        role="button"
-        data-mdb-ripple-color="dark"
-        ><i class="fas fa-envelope"></i
-      ></a>   
-    </section>
-</footer>
+      <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="mailto:budimir.filipovic1@gmail.com" role="button"
+        data-mdb-ripple-color="dark"><i class="fas fa-envelope"></i></a>
+      </section>
+  </footer>
 </div>
+  <!-- <button onclick="someFunction()">Click me</button>
 
+  <p id="intro"></p>
+
+  <script>
+    function someFunction() {
+      document.getElementById("intro").innerHTML = "a";
+    }
+  </script> -->
 </body>
 
 </html>
