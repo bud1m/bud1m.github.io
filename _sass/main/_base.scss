@@ -2,87 +2,68 @@
 
 // Import Bootstrap's SCSS files
 body {
-  height: 100vh;
-  margin: 0;
   background: linear-gradient(180deg, #000000 0%, #1976d2 100%);
   color: #fff;
   font-family: "Arial", sans-serif;
+
 }
 
 // Customize the .card class
-.card {
-  background-color: #be7a7a;
-  border: 5px solid #ca0000;
-  box-shadow: 1 4px 6px rgba(197, 125, 125, 0.1);
-  border-radius: 25px;
-  padding: 20px;
-  text-align: center;
-  color: #fff;
-  font-family: "Arial", sans-serif;
-  font-size: 24px;
-  transition: 0.3s;
-}
 
-.card:hover {
-  box-shadow: 1 4px 6px rgba(197, 125, 125, 0.5);
-  transform: scale(1.05);
-}
+
 
 a {
   text-decoration: none;
   color: black;
+
   &:hover {
     text-decoration: none;
   }
 }
 
-footer {
-  position: absolute;
-  bottom: 0; 
-  width: 100%;
-  height: 40px; /* Set the fixed height of the footer here */
-  line-height: 0.5; /* aligns type in footer-container */
-  background-color: #f5f5f5;
+.card-body{
+  color: rgb(251, 251, 249);
 }
+.card-title{
+  color: white;
+}
+
 // Variables
-$primary-color: #1a1c1d;
+$primary-color: #5c889f;
 $secondary-color: #702f2f;
 
 /* Header Styles */
-header {
-  background-color: #fff; /* Set your desired background color */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
-  padding: 10px 0; /* Adjust top and bottom padding as needed */
+
+.header-name{
+  color: #ffffff;
 }
 
-/* Navbar Styles */
-.navbar {
-  &-brand {
-    font-size: 1.5rem; /* Adjust the font size for the brand */
-    font-weight: bold;
-    color: #333; /* Set your desired text color */
-    text-decoration: none;
-  }
+$navbar-bg: none;
+$navbar-brand-color: #6c757d;
+$navbar-text-color: #6c757d;
+$navbar-link-color: #6c757d;
+$navbar-link-hover-color: #bbdbe2;
+$navbar-active-link-color: #147abf;
+header {
+  background-color: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* Add a subtle box shadow */
 
-  &-toggler {
-    border: none;
-  }
+  /* Adjust top and bottom padding as needed */
+  .navbar {
+    background-color: $navbar-bg;
+    .navbar-nav {
+      .nav-link {
+        color: $navbar-link-color;
+        text-decoration: underline;
 
-  &-nav {
-    &.collapse {
-      justify-content: flex-end; /* Align the nav items to the right */
-    }
+        &:hover {
+          color: $navbar-link-hover-color;
+        }
 
-    &-item {
-      margin-right: 15px; /* Adjust the spacing between nav items */
-    }
-
-    &-link {
-      color: #333; /* Set your desired text color */
-      text-decoration: none;
-
-      &.active {
-        color: #007bff; /* Set the active link color */
+        &.active {
+          color: $navbar-active-link-color;
+        }
       }
     }
   }

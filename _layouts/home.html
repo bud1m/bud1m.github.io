@@ -1,19 +1,24 @@
 <!doctype html>
 <html lang="en">
-  {% include head.html %}
-  <body>
-    
-    <div class="col-lg-8 mx-auto p-1 py-md-0">
-      
-      {% include header.html %}
+{% include head.html %}
 
-      <main>
-        {% include cards.html %}
-      </main>
-
-      {% include footer.html %}
-
+<body class="position-relative d-flex flex-column min-vh-100 col-lg-8 mx-auto">
+  {% include header.html %}
+  <main>
+    <div class="p-3 pb-5 text-center">
+      {% include cards.html %}
     </div>
-      
-  </body>
+  </main>
+  {% include footer.html %}
+  <!-- <button onclick="someFunction()">Click me</button>
+
+  <p id="intro"></p>
+
+  <script>
+    function someFunction() {
+      document.getElementById("intro").innerHTML = "a";
+    }
+  </script> -->
+</body>
+
 </html>

@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-  {% include head.html %}
-  <body>
-    <div class="col-lg-8 mx-auto p-4 py-md-5">
-      {% include header.html %}
+{% include head.html %}
 
-      <main>{% include main.html %}</main>
+<body>
+  <div class="col-lg-8 mx-auto py-4 py-md-5">
+    {% include header.html %}
+    <main>
+      {% include main.html %}
+    </main>
+    {% include footer.html %}
+  </div>
 
-      {% include footer.html %}
-    </div>
-  </body>
+</body>
+
 </html>
